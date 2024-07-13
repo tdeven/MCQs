@@ -1,0 +1,189 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard",
+      "badge": [
+        "danger",
+        "2"
+      ],
+      "submenu": [
+            
+        {
+          "url": "/login",
+          "name": "Devendra",
+          "slug": "",
+          "target": "_blank",
+          "badge": [
+            "label-primary fs-tiny",
+            "Pro"
+          ]
+        },
+        {
+          "url": "",
+          "name": "Kumar",
+          "slug": "",
+          "target": "_blank",
+          "badge": [
+            "label-primary fs-tiny",
+            "Pro"
+          ]
+        },
+        {
+          "url": "",
+          "name": "Thakur",
+          "slug": "",
+          "target": "_blank",
+          "badge": [
+            "label-primary fs-tiny",
+            "Pro"
+          ]
+        }
+      ]
+    },
+
+    {
+      "menuHeader": "Examination & Preparation"
+    },
+   
+   {
+    "name":"Exam",
+    "icon":"menu-icon tf-icons bx bx-detail",
+    "slug":"exam-basic",
+    "url":"examination/exam"
+   },
+   {
+    "name":"Library",
+    "icon":"menu-icon tf-icons bx bx-cube-alt",
+    "slug":"library-basic",
+    "url":"examination/library"
+   },
+   {
+    "name":"Hall",
+    "icon":"menu-icon tf-icons bx bx-test-tube",
+    "slug":"hall-basic",
+    "url":"examination/hall"
+   },
+
+    {
+      "menuHeader": "Apps & Pages"
+    },
+   
+    {
+      "name": "Account Settings",
+      "icon": "menu-icon tf-icons bx bx bx-dock-top",
+      "slug": "pages-account-settings",
+      "submenu": [
+        {
+          "url": "pages/account-settings-account",
+          "name": "Account",
+          "slug": "pages-account-settings-account"
+        },
+        {
+          "url": "pages/account-settings-notifications",
+          "name": "Notifications",
+          "slug": "pages-account-settings-notifications"
+        },
+        {
+          "url": "pages/account-settings-connections",
+          "name": "Connections",
+          "slug": "pages-account-settings-connections"
+        }
+      ]
+    },
+    {
+      "name": "Authentications",
+      "icon": "menu-icon tf-icons bx bx-lock-open-alt",
+      "slug": "auth",
+      "submenu": [
+        {
+          "url": "auth/login-basic",
+          "name": "Login",
+          "slug": "auth-login-basic",
+          "target": "_blank"
+        },
+        {
+          "url": "auth/register-basic",
+          "name": "Register",
+          "slug": "auth-register-basic",
+          "target": "_blank"
+        },
+        {
+          "url": "auth/forgot-password-basic",
+          "name": "Forgot Password",
+          "slug": "auth-forgot-password-basic",
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "name": "Misc",
+      "icon": "menu-icon tf-icons bx bx-cube-alt",
+      "slug": "pages-misc",
+      "submenu": [
+        {
+          "url": "pages/misc-error",
+          "name": "Error",
+          "slug": "pages-misc-error",
+          "target": "_blank"
+        },
+        {
+          "url": "pages/misc-under-maintenance",
+          "name": "Under Maintenance",
+          "slug": "pages-misc-under-maintenance",
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Forms"
+    },
+    {
+      "name": "Form Elements",
+      "icon": "menu-icon tf-icons bx bx-detail",
+      "slug": "forms",
+      "submenu": [
+        {
+          "url": "forms/basic-inputs",
+          "name": "Basic Inputs",
+          "slug": "forms-basic-inputs"
+        },
+        {
+          "url": "forms/input-groups",
+          "name": "Input groups",
+          "slug": "forms-input-groups"
+        }
+      ]
+    },
+    {
+      "name": "Form Layouts",
+      "icon": "menu-icon tf-icons bx bx-detail",
+      "slug": "form-layouts",
+      "submenu": [
+        {
+          "url": "form/layouts-vertical",
+          "name": "Vertical Form",
+          "slug": "form-layouts-vertical"
+        },
+        {
+          "url": "form/layouts-horizontal",
+          "name": "Horizontal Form",
+          "slug": "form-layouts-horizontal"
+        }
+      ]
+    },
+    {
+      "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/form/validation",
+      "icon": "menu-icon tf-icons bx bx-list-check",
+      "name": "Form Validation",
+      "slug": "form-validation",
+      "target": "_blank",
+      "badge": [
+        "label-primary fs-tiny",
+        "Pro"
+      ]
+    }
+  ]
+}
